@@ -1,0 +1,14 @@
+{
+    "name": "Linkify JIRA in Flowdock",
+    "version": "0.0.1",
+    "description": "Because I'm too lazy to copy and paste",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "js": [
+            "src/inject/inject-flowdock.js"
+        ],
+        "matches": [
+            "https://www.flowdock.com/app/*"
+        ]
+    }]
+}
